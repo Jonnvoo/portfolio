@@ -1,0 +1,39 @@
+:root {
+    --primary: darkgrey;  
+    --accent: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+background-color: salmon;}
+
+header{
+    height: 10vh;
+    background-color: var(--primary);
+    color: var(--accent);
+}
+
+main {
+    min-height: 70vh;
+}
+
+a{
+    text-decoration: none;
+    color: var(--accent);
+    text-decoration: none;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: inline;
+    
+}
+footer{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
