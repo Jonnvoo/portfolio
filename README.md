@@ -30,6 +30,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## ScreenShot
 ![screenshot](./assets/images/Capture222.PNG)
 
+## Link
+https://jonnvoo.github.io/portfolio/ 
+
 
 
 
