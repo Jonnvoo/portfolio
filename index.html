@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,79 +8,112 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Jonathan's portfolio</title>
 </head>
+
 <body>
-    <header>
+    <!-- These is the navigation bar where you can click on and it takes you to that spot on the page -->
+    <section class="header">
         <h1>Jonathan Vu</h1>
         <nav>
             <ul>
-            
+
                 <li>
-                    <a href="About Me">About Me</a>
+                    <a href="#aboutMe">About Me</a>
                 </li>
                 <li>
-                    <a href="Work">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="Contact Me">Contact Me</a>
+                    <a href="#contactMe">Contact</a>
                 </li>
-                <li>
-                    <a href="Resume">Resume</a>
-                </li>
-            
-            
-             </ul>
+
+
+            </ul>
         </nav>
 
-    </header> 
-        <section class="banner">
-            <section class="banner-text">
-                <h1>Portfolio of Past Accomplishments!</h1>
-            </section>
+    </section>
+    <section class="banner">
+        <section class="banner-text">
+            <h1>Portfolio of Past Accomplishments!</h1>
         </section>
+    </section>
     <main>
-        <article class="content" id="content">
-            <section class="sidebar">
+        <!-- section About me -->
+        <section class="card" id="aboutMe">
+            <section class="card-data">
                 <h2>About Me</h2>
             </section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla perspiciatis odit nam, provident enim tempore aperiam, porro aspernatur totam sit dolorum modi? Voluptates eaque rem ad doloremque temporibus velit ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere pariatur quas atque deserunt, doloribus vitae possimus, ducimus obcaecati ullam assumenda est fugiat consequatur necessitatibus dolorum accusantium explicabo neque placeat odit. Lorem ipsum dolor sit amet 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla perspiciatis odit nam, provident enim
+                tempore aperiam, porro aspernatur totam sit dolorum modi? Voluptates eaque rem ad doloremque temporibus
+                velit ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere pariatur quas atque deserunt,
+                doloribus vitae possimus, ducimus obcaecati ullam assumenda est fugiat consequatur necessitatibus
+                dolorum accusantium explicabo neque placeat odit. Lorem ipsum dolor sit amet
                 <br><br>
-                consectetur adipisicing elit. Rerum nulla eos nam esse dolores? Et consequuntur non fuga soluta! Nobis amet sunt minus error ad iusto odio laudantium dolor natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure quia saepe aliquam. Delectus ipsum, quidem velit voluptas laboriosam soluta recusandae dolorum nihil, neque non voluptatem natus! Sed, aperiam asperiores?</p>
-        </article>
+                consectetur adipisicing elit. Rerum nulla eos nam esse dolores? Et consequuntur non fuga soluta! Nobis
+                amet sunt minus error ad iusto odio laudantium dolor natus. Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Deserunt iure quia saepe aliquam. Delectus ipsum, quidem velit voluptas laboriosam
+                soluta recusandae dolorum nihil, neque non voluptatem natus! Sed, aperiam asperiores?
+            </p>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            <section class="card">
+                    <section class="card-data">
+                        <h3>Professor Oak's Poke Dex</h3>
+                        <a href="https://shiny-hunter-client.vercel.app/"target="_blank">
+                            <img src="./assets/images/Pokemon.PNG" class="pokemonDex" alt="Pokemon Shiny Tracker">
+                        </a>
 
-        <article class="content" id="content">
-            <section class="sidebar">
-                <h2>My Work</h2>
-            <section>
-                <div class="card">
-                <img src="./assets/images/screenshot 2.png" alt="Horesion websute">
-                </div>
-        </article>
-        
+                </section>
+                <section class="card-data">
+                    <h3>Caregiver Connection</h3>
+                    <a href="https://github.com/cornetj13/caregiver-connection" target="_blank">
+                        <img src="./assets/images/CareGiver.PNG" alt="Connection For Nurses">
+                    </a>
+
+                </section>
+                <section class="card-data">
+                    <h3>SuperHero Finder</h3>
+                    <a href="https://github.com/mfarrell23/superHeros"target="_blank">
+                        <img src="./assets/images/SuperheroFinder.PNG" alt="Superhero finder">
+                    </a>
+
+                </section>
+                <section class="card-data">
+                    <h3>Horesion</h3>
+                    <a href="https://github.com/Jonnvoo/Code-Refactor-2"target="_blank">
+                        <img src="./assets/images/screenshot 2.png" alt="Horesion Code Refactor">
+                    </a>
+
+                </section>
+            </section>
+        </section>
+
+
     </main>
-    <footer>
-        <h2>Contact me</h2>
+    <footer id="contactMe">
         <nav>
             <ul>
-            
+
                 <li>
-                    <a href="About Me">About Me</a>
+                    <a href="https://github.com/Jonnvoo" target="_blank" >GitHub</a>
                 </li>
                 <li>
-                    <a href="Work">Work</a>
+                    <a href="mailto:Jonathanvu2065@gmail.com"target="_blank">Email</a>
                 </li>
                 <li>
-                    <a href="Contact Me">Contact Me</a>
+                    <a href="#">555-555</a>
                 </li>
                 <li>
-                    <a href="Resume">Resume</a>
+                    <a href="https://twitter.com/Jonnvoo"target="_blank">Twitter</a>
                 </li>
-            
-            
-             </ul>
+
+
+            </ul>
         </nav>
 
-    </footer>    
+    </footer>
 
-    
+
 </body>
+
 </html>
